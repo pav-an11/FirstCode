@@ -2,11 +2,14 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        
+//        ZStack{
+//            .background(Color.black)
+//        }
         VStack {
+          
             Text("Swift Coding Club")
                 .font(.system(size: 20, weight:  .bold))
-                .foregroundColor(.red)
+                .foregroundColor(.black)
             Button(action: {
                 
             }){
@@ -19,7 +22,8 @@ struct ContentView: View {
                     .cornerRadius(10)
             }
         }
-        .padding(60)
+        .padding(10)
+
     }
 }
 
