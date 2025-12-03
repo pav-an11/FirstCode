@@ -2,6 +2,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
+        
         VStack {
             Text("Swift Coding Club")
                 .font(.system(size: 20, weight:  .bold))
@@ -9,7 +10,7 @@ struct ContentView: View {
             Button(action: {
                 
             }){
-                Text("Button")
+                Text("Submit")
                     .font(.headline)
                     .foregroundColor(.white)
                     .padding(8)
